@@ -4,7 +4,7 @@ const mysqlConf: ConnectionOptions = {
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Jiangss..159793",
+    password: "",
     database: "platform",
 };
 export default mysqlConf;

@@ -5,11 +5,6 @@ const conf: Options = {
     dialect: "mysql",
 };
 
-const sequelize = new Sequelize(
-    "koa2_weibo_db",
-    "root",
-    "Jiangss..159793",
-    conf
-);
+const sequelize = new Sequelize("koa2_weibo_db", "root", "", conf);
 
 export default sequelize;
